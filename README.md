@@ -13,9 +13,5 @@ $ npm install /path/to/edge_detector_wasm/pkg
 ```
 
 ```jsx
-import {
-  EdgeDetectionMethod,
-  process_image_wasm,
-  init,
-} from "edge_detector_wasm";
+import { EdgeDetectionMethod, process_image_wasm } from "edge_detector_wasm";
 ```
