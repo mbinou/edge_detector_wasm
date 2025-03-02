@@ -7,12 +7,6 @@ use imageproc::gradients::sobel_gradients;
 use imageproc::edges::canny;
 use std::io::Cursor;
 
-// Initialization of WebAssembly
-// #[wasm_bindgen(start)]
-// pub fn init() {
-//     console::log_1(&"WASM Module Loaded".into());
-// }
-
 /// Enum for edge detection method
 #[wasm_bindgen]
 pub enum EdgeDetectionMethod {
